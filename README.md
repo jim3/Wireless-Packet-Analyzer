@@ -1,6 +1,8 @@
 ### Kismet Packet Capture Tool
 
-This project uses the Kismet REST API to capture, parse and display wireless packet information via your WiFi network. Currently, it uses the RTL-SDR V3 to capture 433 MHz packets (via the `rtl_433` tool) and the ALFA AWUS036ACM to capture 802.11ac packets. The project is written in TypeScript. BTLE, and many others will be added soon. I've integrated MQTT to send the packets to a broker and the results can be viewed using a tool like [MQTT Explorer](http://mqtt-explorer.com/).
+This project uses the Kismet REST API to capture, parse and display wireless packet information via your WiFi network. Currently, it uses the RTL-SDR V3 to capture 433 MHz packets (via the `rtl_433` tool) and the ALFA AWUS036ACM to capture 802.11ac packets. The project is written in TypeScript. I've integrated MQTT to send the packets to a broker and the results can be viewed using a tool like [MQTT Explorer](http://mqtt-explorer.com/).
+
+`BTLE`, `Zigbee`, `rtlamr` and many other devices will be added soon. A dashboard that uses `MQTT` to display data in real-time is currently in works also. I plan to heavily shift focus toward `IoT` devices and less on traditional WiFi as well.
 
 ### Tech Stack
 
